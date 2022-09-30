@@ -229,7 +229,125 @@ Assignment operators:
 * Input/Output:
 
 
+* Control Structures:
 
+* Conditional statements:
+
+if-else ladder:
+
+if (some condition is true) {
+	....
+}
+else if (second condition is true) {
+	....
+}
+else if (third condition is true) {
+	....
+}
+.
+.
+.
+.
+.
+else {
+	...
+}
+
+
+* Switch case:
+
+Switch case is similar to if else but it reduces the complexity of if-else ladder
+
+switch (condition) {
+	case 1:
+		...
+	case 2:
+		...
+	case 3:
+		...
+	.
+	.
+	.
+	default:
+		...
+}
+
+break in switch case is needed to only run one case and the break out of switch
+
+
+* Ternary operator:
+
+It takes three operands
+It is a short form to write if-else
+
+condition ? if true do this : if false do this
+
+
+int age = 25;
+age >= 18 ? print("You are eligible to vote") : print("You are not eligible to vote")
+
+if (age >= 18) {
+	print("You are eligible to vote")
+}
+else if (age <= 12) {
+	print("You should focus on studies")
+}
+else {
+	print("You are not eligible to vote")
+}
+
+
+* Type conversion:
+
+* implicit or Upward conversion:
+
+byte < short < int < long < float < double
+
+byte b = 10;
+int i = b; // works
+
+int a = 10;
+float f = a; // f will be 10.0
+
+short s = 98;
+long l = s;
+
+float f = 5.32;
+double d = f;
+
+
+* Explicit or Downward conversion
+
+float f = 3.14;
+int i = f; // compilation error
+
+int i = (int) f; // 3
+
+int i = 200;
+byte b = i; // compilation error
+
+byte b = (byte) i;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// tomorrow'sclass is from 11 AM to 1 PM
+* Loops 
 
 
 
