@@ -304,13 +304,13 @@ else {
 byte < short < int < long < float < double
 
 byte b = 10;
-int i = b; // works
+ // works
 
 int a = 10;
 float f = a; // f will be 10.0
 
 short s = 98;
-long l = s;
+long l = s;int i = b;
 
 float f = 5.32;
 double d = f;
@@ -323,33 +323,53 @@ int i = f; // compilation error
 
 int i = (int) f; // 3
 
-int i = 200;
+int i = 129;
 byte b = i; // compilation error
 
 byte b = (byte) i;
 
+b will be -128
+
+-128 to 127
+
+-128, -127, -126, -125, -124.......0..........125, 126, 127+3
 
 
 
 
+128 -> -128
+129 -> -127
+130 -> -126
+131 -> -125
+
+132 -> -124
+200 -> ??
 
 
+double d = 4.56;
+float f = (float)d;
 
 
-
-
-
-
-
-
-
-
-
-
-// tomorrow'sclass is from 11 AM to 1 PM
 * Loops 
 
+We need loops to execute a line of code or lines of code many number of times.
 
+* While loop:
+
+while (condition) {
+	....
+	update statement
+}
+
+How while loop works ?
+It keeps on executing till the condition becomes false
+
+
+* for loop
+
+for (initialise the variable; condition; update statement) {
+	.....
+}
 
 
 
