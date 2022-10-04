@@ -371,6 +371,110 @@ for (initialise the variable; condition; update statement) {
 	.....
 }
 
+* do while loop
+
+do {
+	// some code
+
+	update statement
+}
+while (condition);
+
+do while loop gets executed at least once 
+
+
+* Functions:
+
+calculate 2x + 5
+
+x = 5
+o/p= 15
+
+x = 6
+o/p= 17
+
+x=7
+o/p= 19
+
+functions are a reusable chuck or piece of code that we can use over and over again instead of wrting the same code multiple times.
+
+* Function definition or declaration:
+
+
+return_type functionName (dataType var1, dataType var2.....) {
+	
+	// function body
+	....
+
+	 return statement
+}
+
+return_type is the data type of  the output the function produces
+
+dataType var1, dataType var2..... -> they are known as function arguments or function parameters
+
+A function can accept any number of arguments/parameters or it can even accept zero parameters.
+
+return statement marks the end of the function.
+
+
+* function to calculate sum of two numbers:
+
+int getSum(int a, int b) {
+	int sum = a + b;
+
+	return sum;
+}
+
+float getSum (float a, int b) {
+	float sum = a + b;
+
+	return sum;
+}
+
+* Calling a function
+
+int sum = getSum(5, 3); // 8
+
+int sum2 = getSum(9, 7); // 16
+
+int sum3 = getSum(4, 8); // 12
+
+
+int calculate(int x) {
+	int result = 2 * x + 5;
+
+	Systen.out.println(result);
+
+	return result;
+}
+
+
+int result1 = calculate(8); // 21
+
+int result2 = calculate(6); // 17
+
+int result3 = calcualte(4); // 13
+
+int result4 = calculate(7);
+
+
+
+int calculate() {
+	return 2;
+}
+
+what is void?
+If a function returns nothing, its return type will be void 
+void means empty.
+
+
+
+
+
+
+
+
 
 
 
